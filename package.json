@@ -1,13 +1,11 @@
 {
     "name": "kaichronicles",
     "version": "1.10.0",
-    "repository" :
-    { 
-        "type" : "git",
-        "url" : "https://github.com/tonib/kaichronicles.git"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tonib/kaichronicles.git"
     },
-    "license" : "MIT",
-
+    "license": "MIT",
     "devDependencies": {
         "jshint": "2.9.5",
         "node-fs-extra": "0.8.2",
@@ -16,7 +14,6 @@
         "preprocess": "3.1.0",
         "typescript": "2.4.1"
     },
-
     "scripts": {
         "lint": "jshint src/www/js",
         "prepareversion": "node scripts/prepareVersion.js",
@@ -27,4 +24,3 @@
         "reviewchanges": "node scripts/reviewBookChanges.js"
     }
 }
-
